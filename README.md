@@ -39,8 +39,22 @@ npm install
 ## 🛠 Usage
 Basic usage from the command line:
 ```bash
-node loadTest.js --url https://api.example.com/test --concurrency 50 --duration 30
+node tester.js
 ```
+
+## 🏗️ Updated Project Structure
+
+```bash
+load-tester/
+├── tester.js <-- Main load testing engine
+├── config.js <-- Define endpoints & settings
+├── payloads/ <-- JSON payloads for test scenarios
+│ ├── forgot-pwd.json
+│ ├── register.json
+│ └── login.json
+├── package.json <-- Project metadata and dependencies
+```
+
 
 ### Options
 
