@@ -5,13 +5,13 @@ module.exports = {
   timeout: 10000,
 
   endpoints: [
-    // {
-    //   name: 'Create User',
-    //   url: `${apiUrl}/users`,
-    //   method: 'POST',
-    //   headers: { 'Content-Type': 'application/json' },
-    //   payloads: require('./payloads/users.json')
-    // },
+    {
+      name: 'Create User',
+      url: `${apiUrl}/users`,
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      payloads: require('./payloads/users.json')
+    },
     {
       name: 'Login',
       url: `${apiUrl}/login`,

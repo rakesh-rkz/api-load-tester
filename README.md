@@ -69,9 +69,8 @@ load-tester/
 ## 📄 Output Report
 A CSV file named results_timestamp.csv will be generated with the following structure:
 ```bash
-timestamp,response_time_ms,status_code
-2025-07-12T14:23:01.123Z,132,200
-2025-07-12T14:23:01.456Z,201,200
+Endpoint Name,HTTP Method,URL,Total Requests,Success,Failed,Avg Time (ms),Min Time (ms),Max Time (ms),Requests/sec
+Create User,POST,http://localhost:5000/api/users,1,1,0,387.80,387.80,387.80,2.58
 ...
 ```
 
